@@ -104,16 +104,15 @@ function finalizarCompra() {
   }
 }
 
-
 //Ver carrito
 function menuCarrito() {
-      console.log(`Qué desea hacer?
+  console.log(`Qué desea hacer?
         1. Ver lista de compras
         2. Realizar pago
         3. Retroceder`);
-      console.clear();
-let dato = 0;
-let bucle = false;
+  console.clear();
+  let dato = 0;
+  let bucle = false;
 
   while (!bucle) {
     do {
@@ -133,15 +132,14 @@ let bucle = false;
         alert(`El total de compras es: ${carritoTotal}`);
         break;
       case 2:
-        alert("El pago se ha realizado con éxito")
-        ;
+        alert("El pago se ha realizado con éxito");
         break;
       case 3:
         bucle = true;
         break;
     }
   }
-    }
+}
 
 //Menu opciones
 
